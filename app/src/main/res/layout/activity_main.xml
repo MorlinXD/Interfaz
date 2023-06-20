@@ -129,18 +129,20 @@
     </RadioGroup>
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/txtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="59dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Nombre" />
+        android:inputType="textCapCharacters"
+        android:text="Nombre"
+        android:maxLength="500"
+        />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/txtCiudad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -148,17 +150,21 @@
         android:layout_marginStart="78dp"
         android:layout_marginBottom="194dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Ciudad" />
+        android:inputType="textCapCharacters"
+        android:text="Ciudad"
+        android:maxLength="200"
+        />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/txtCedula"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
         android:ems="10"
-        android:inputType="text" />
+        android:inputType="number"
+        android:maxLength="10"
+        />
 
 </RelativeLayout>
