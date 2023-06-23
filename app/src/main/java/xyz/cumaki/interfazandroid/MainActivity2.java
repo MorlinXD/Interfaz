@@ -15,7 +15,10 @@ public class MainActivity2 extends AppCompatActivity {
 
         Bundle bundle = this.getIntent().getExtras();
 txtDatos.setText(bundle.getString("CEDULA")+"\n"+bundle.getString("NOMBRE")+"\n"+
-        bundle.getString("CIUDAD")+"\n"+bundle.getString("TELEFONO"));
+        bundle.getString("FECHA")+"\n"+
+        bundle.getString("CIUDAD")+"\n"+bundle.getString("GENERO")+"\n"
+        +bundle.getString("CORREO")+"\n"
+        +bundle.getString("TELEFONO"));
 
     }
 }
