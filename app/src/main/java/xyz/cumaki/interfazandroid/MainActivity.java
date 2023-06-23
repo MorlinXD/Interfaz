@@ -10,6 +10,7 @@ import android.text.InputFilter;
 import android.text.Spanned;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -104,6 +105,25 @@ public void MostraDataPicker (View view){
 
     }
 
+        public void btBorrar(View view) {
+            EditText txtCedula = (EditText) findViewById(R.id.txtCedula);
+            EditText txtNombre= (EditText) findViewById(R.id.txtNombre);
+            EditText txtCiudad= (EditText) findViewById(R.id.txtCiudad);
+            EditText txtTelefono=(EditText) findViewById(R.id.txtTelefono);
+            RadioButton rbMasculino = findViewById(R.id.RadM);
+            RadioButton rbFemenino = findViewById(R.id.radF);
+            EditText txtCorreo=(EditText) findViewById(R.id.txtCorreo);
+            EditText txtFecha = findViewById(R.id.editTextDate);
+
+            txtCedula.setText("");
+            txtNombre.setText("");
+            txtCiudad.setText("");
+            txtTelefono.setText("");
+            rbMasculino.setChecked(false);
+            rbFemenino.setChecked(false);
+            txtCorreo.setText("");
+            txtFecha.setText("");
+        }
 
 
 }
