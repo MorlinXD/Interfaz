@@ -123,6 +123,9 @@ public void MostraDataPicker (View view){
             rbFemenino.setChecked(false);
             txtCorreo.setText("");
             txtFecha.setText("");
+
+
+            Toast.makeText(getApplicationContext(), "se han limpiado todos los campos", Toast.LENGTH_SHORT).show();
         }
 
 
