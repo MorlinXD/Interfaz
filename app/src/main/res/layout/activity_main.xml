@@ -15,6 +15,8 @@
         android:layout_marginStart="23dp"
         android:layout_marginTop="36dp"
         android:text="Cedula:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +30,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="19dp"
         android:layout_marginTop="76dp"
-        android:text="Nombres:" />
+        android:text="Nombres:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
@@ -38,7 +42,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="15dp"
         android:layout_marginTop="114dp"
-        android:text="Fecha de nacimiento:" />
+        android:text="Fecha de nacimiento:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
@@ -48,7 +54,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="37dp"
         android:layout_marginBottom="527dp"
-        android:text="Ciudad:" />
+        android:text="Ciudad:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView4"
@@ -58,7 +66,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="29dp"
         android:layout_marginBottom="452dp"
-        android:text="Genero:" />
+        android:text="Genero:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView5"
@@ -69,7 +79,9 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="346dp"
-        android:text="Correo:" />
+        android:text="Correo:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtCorreo"
@@ -78,7 +90,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="131dp"
+        android:layout_marginStart="102dp"
         android:layout_marginBottom="336dp"
         android:ems="10"
         android:inputType="textEmailAddress" />
@@ -152,7 +164,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="36dp"
         android:layout_marginBottom="263dp"
-        android:text="Telefono:" />
+        android:text="Telefono:"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtTelefono"
@@ -160,12 +174,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="254dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="250dp"
         android:ems="10"
         android:inputType="phone"
-        android:maxLength="10"
-        />
+        android:maxLength="10" />
 
     <Button
         android:id="@+id/btEnviar"
@@ -195,8 +209,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="127dp"
-        android:layout_marginEnd="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="100dp"
         android:ems="10"
         android:focusable="false"
         android:inputType="none"
